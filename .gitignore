@@ -1,0 +1,52 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore the virtual environment directory
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Ignore Django settings and other sensitive files
+*.sqlite3
+*.db
+
+# Ignore environment variables file (for storing API keys, database credentials, etc.)
+.env
+
+# Ignore the default IDE project files
+.vscode/
+.idea/
+
+# Ignore operating system-specific files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+.coverage
+*.cover
+*.py,cover
+
+# Ignore log files
+*.log
+
+# Ignore test result files
+nosetests.xml
+pytest.xml
+coverage.xml
+*.coveragerc
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore package manager files
+pip-wheel-metadata/
+*.whl
